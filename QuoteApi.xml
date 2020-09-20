@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QuoteApi</name>
+    </assembly>
+    <members>
+        <member name="M:QuoteApi.Controllers.QuoteController.Get">
+            <summary>
+            Get All Quotes Details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:QuoteApi.Controllers.QuoteController.GetQuoteByNo(System.String)">
+            <summary>
+            Get Quote Details by Quoteno
+            </summary>
+            <param name="quoteno">Quote Number</param>
+            <returns></returns>
+        </member>
+        <member name="M:QuoteApi.Controllers.QuoteController.GetPeople(System.String)">
+            <summary>
+            Look Up People by query
+            </summary>
+            <param name="query">Prople FirstName or Last Name</param>
+            <returns></returns>
+        </member>
+        <member name="M:QuoteApi.Controllers.QuoteController.PostAddAdditionalInsured(QuoteApi.Models.AdditonalInsured)">
+            <summary>
+            Add AddAdditionalInsured
+            </summary>
+            <param name="value">AdditonalInsured</param>
+            <returns></returns>
+        </member>
+        <member name="T:QuoteApi.Helpers.PremimumQuote">
+            <summary>
+            PremimumQuote Status Values
+            Options we Can Use Enums or Constants Quote values
+            </summary>
+        </member>
+        <member name="T:QuoteApi.Helpers.QuoteStatus">
+            <summary>
+            QuoteStatus Values
+            </summary>
+        </member>
+    </members>
+</doc>
